@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Zodiac#Game</title>
+  </head>
+
+  <body>
+    <main>
+
+      <section class="player player--1 player--active">
+        <h2 class="name" id="name--1"> Spieler 1</h2>
+        <p class="score" id="score--1">0</p>
+        <div class="current">
+          <p class="current-label label--1">Jetzt</p>
+          <p class="current-score jetzt-zahl" id="current--1">0</p>
+        </div>
+      </section>
+      <section class="player player--2">
+        <h2 class="name" id="name--2">Spieler 2</h2>
+        <p class="score" id="score--2">0</p>
+        <div class="current">
+          <p class="current-label label--2">Jetzt</p>
+          <p class="current-score jetzt-zahl" id="current--2">0</p>
+        </div>
+      </section>
+      <img src="src/image/dice-1.png" alt="Dice spielen" class="dice" />
+      <button class="btn btn--new">🔄 Neues Spiel</button>
+      <button class="btn btn--roll">🎲 Roll Dice</button>
+      <button class="btn btn--hold">📥 Halt</button>
+    </main>
+  </body>
+  <script src="script.js"></script>
+
+</html>
